@@ -14,7 +14,28 @@
           Instagram
         </a>
         <div>
-            <button type="button" class="btn btn-success">Create new post</button>
+            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#staticBackdrop">
+              Create new post
+            </button>
+            <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Add an image</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    Here you can upload an image
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-success">Upload image</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
                 <div class="btn-group">
                     <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <i class="fas fa-cog"></i>
