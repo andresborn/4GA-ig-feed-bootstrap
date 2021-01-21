@@ -2,4 +2,11 @@
 
 Instagram Feed clone with Bootstrap.
 
-Live code: https://andresborn.github.io/4GA-ig-feed-bootstrap/
+This excercise took me around 6 hours. We learned:
+
+- Bootstrap's grid system
+- Cards
+- Navs
+- Tabs
+
+Live code at: https://andresborn.github.io/4GA-ig-feed-bootstrap/
